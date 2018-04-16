@@ -22,4 +22,10 @@ public class Motocicleta extends TipoVehiculo {
 		return "Motocicleta " + super.acelerar(velocidad);
 	}
 	
+	@Override
+	public String frenar(int velocidad) {
+		// TODO Auto-generated method stub
+		return "Motocicleta " + super.frenar(velocidad);
+	}
+	
 }
